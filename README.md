@@ -16,7 +16,7 @@ You can configure throught WATO paramas like: <br />
 Example of default params discovery: <br /> 
 { <br /> 
         'warning_upper': 150,  #Latency Warning <br /> 
-        'critical_upper': 200, #Latency Critical <br />  
+        'critical_upper': 200, #Latency Critical <br />
         'packet_loss': 5, #Max PacketLoss Percentage <br /> 
 } <br /> 
 
