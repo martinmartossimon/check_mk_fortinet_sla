@@ -97,7 +97,7 @@ def check_Sla_Fortinet(item, params, section):
     
 register.snmp_section(
 	name = "sla_fortinet",
-	detect = exists(".1.3.6.1.4.1.12356.101.4.9.2.1"),
+	detect = exists(".1.3.6.1.4.1.12356.101.4.9.2.1.*"),
 	fetch = SNMPTree(
 	        base = '.1.3.6.1.4.1.12356.101.4.9.2.1',
 		oids = [
